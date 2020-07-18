@@ -26,8 +26,8 @@ jobs:
         pip install requests
     - name: Update README
       env:
-        ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
-        BLOG_NAME: ${{secrets.BLOG_NAME}}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BLOG_NAME: ${{ secrets.BLOG_NAME }}
       run: |
         python main.py
     - name: Commit README
