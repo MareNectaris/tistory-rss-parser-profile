@@ -8,6 +8,8 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   build:
@@ -42,3 +44,5 @@ jobs:
         git config --local user.name "GitHub Action Bot"
         git commit -m "Update README.md"
         git push
+
+
