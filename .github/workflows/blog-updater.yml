@@ -34,7 +34,7 @@ jobs:
       run: |
         git add .
         git diff
-        git config --local user.email "action@ightub.com"
+        git config --local user.email "action@gihtub.com"
         git config --local user.name "GitHub Action Bot"
         git commit -m "Update README.md"
         git push
