@@ -1,6 +1,6 @@
 # Hello, there!
 Still an amateur developer wandering around the digital world.<br>
-Currently in 12th grade @ Sunrin Internet HS, 5th VP of @EDCAN, and a member of @DSmakerteam.<br>
+Currently in 12th grade @ Sunrin Internet HS, 5th VP of [EDCAN](https://github.com/EDCAN), and a member of [DSmakerteam](https://github.com/DSmakerteam).<br>
 ## Recent blog posts
 Posts are updated automatically everyday.<br><br>
 [타이젠 스튜디오(sdb)와 워치 연결하기](https://blog.stdio.dev/58)<br>
