@@ -7,7 +7,7 @@ markdown_text = """# Hello, there!
 Still an amateur developer wandering around the digital world.<br>
 Currently in 12th grade @ Sunrin Internet HS, 5th VP of @EDCAN, and a member of @DSmakerteam.<br>
 ## Recent blog posts
-Posts are updated automatically everyday.<br>
+Posts are updated automatically everyday.<br><br>
 """ # list of blog posts will be appended here
 
 lst = []
