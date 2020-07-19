@@ -11,9 +11,9 @@ Currently in 12th grade @ Sunrin Internet HS, 5th VP of [EDCAN](https://github.c
 
 lst = []
 
-dt = datetime.datetime.strptime(i['published'], "%a, %d %b %Y %H:%M:%S %z").strftime("%b %d, %Y")
 
 for i in feed['entries']:
+    dt = datetime.datetime.strptime(i['published'], "%a, %d %b %Y %H:%M:%S %z").strftime("%b %d, %Y")
     markdown_text += f"[{i['title']}]({i['link']}) - {dt}<br>\n"
     print(i['link'], i['title'])
 
