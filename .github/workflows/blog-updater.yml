@@ -29,6 +29,7 @@ jobs:
         python main.py
     - name: Commit README
       run: |
+        git pull
         git add .
         git diff
         git config --local user.email "action@gihtub.com"
