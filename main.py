@@ -1,4 +1,4 @@
-import feedparser
+import feedparser, datetime
 
 tistory_blog_uri="https://blog.stdio.dev"
 feed = feedparser.parse(tistory_blog_uri+"/rss")
@@ -12,7 +12,7 @@ Currently in 12th grade @ Sunrin Internet HS, 5th VP of [EDCAN](https://github.c
 lst = []
 
 for i in feed['entries']:
-    markdown_text += f"[{i['title']}]({i['link']})<br>\n"
+    markdown_text += f"[{i['title']}]({i['link']}) - {datetime.datetime.strptime(i['published'], "%a, %d %b %Y %H:%M:%S %z").strftime("%b %d, %Y")}<br>\n"
     print(i['link'], i['title'])
 
 f = open("README.md",mode="w", encoding="utf-8")
