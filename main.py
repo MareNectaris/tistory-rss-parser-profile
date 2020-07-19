@@ -11,8 +11,10 @@ Currently in 12th grade @ Sunrin Internet HS, 5th VP of [EDCAN](https://github.c
 
 lst = []
 
+dt = datetime.datetime.strptime(i['published'], "%a, %d %b %Y %H:%M:%S %z").strftime("%b %d, %Y")
+
 for i in feed['entries']:
-    markdown_text += f"[{i['title']}]({i['link']}) - {datetime.datetime.strptime(i['published'], "%a, %d %b %Y %H:%M:%S %z").strftime("%b %d, %Y")}<br>\n"
+    markdown_text += f"[{i['title']}]({i['link']}) - {dt}<br>\n"
     print(i['link'], i['title'])
 
 f = open("README.md",mode="w", encoding="utf-8")
