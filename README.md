@@ -1,6 +1,5 @@
 # Hello, there!
-Still an amateur developer wandering around the digital world.<br>
-Currently in 12th grade @ Sunrin Internet HS, 5th VP of [EDCAN](https://github.com/EDCAN), and a member of [DSmakerteam](https://github.com/DSmakerteam).<br>
+Your introduction goes here
 ## Recent blog posts
 [Python+GitHub Actions로 GitHub 프로필에 티스토리 최근 글 목록 표시](https://blog.stdio.dev/59) - Jul 19, 2020<br>
 [타이젠 스튜디오(sdb)와 워치 연결하기](https://blog.stdio.dev/58) - Jul 17, 2020<br>
