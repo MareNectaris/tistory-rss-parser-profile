@@ -32,7 +32,7 @@ jobs:
         git add .
         git diff
         git config --local user.email "action@gihtub.com"
-        git config --local user.name "GitHub Action Bot"
+        git config --local user.name "GitHub Action"
         git commit -m "Update README.md"
         git push
 
